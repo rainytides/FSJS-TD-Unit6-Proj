@@ -1,0 +1,52 @@
+{
+    "projects": 
+        [ 
+            { 
+                 "id": 0,
+                 "project_name": "A Random Quote Generator",
+                 "description": "A quote generator displaying a new quote every 10 seconds or on button click. The background color changes with each new quote.",
+                 "technologies": ["HTML", "CSS", "Vanilla JavaScript"],
+                 "live_link": "https://rainytides.github.io/FSJS-TD-Unit1-Proj/",
+                 "github_link": "https://github.com/rainytides/FSJS-TD-Unit1-Proj",
+                 "image_urls": ["/static/images/square-image-1-for-unit-1.png","/static/images/image-2-for-unit-1.png","/static/images/image-3-for-unit-1.png"]
+                         
+            },
+             {
+                 "id": 1,
+                 "project_name": "Data Pagination and Filtering",
+                 "description": "A mock student directory with pagination and search functionality. The page displays 9 students at a time and allows users to search for students by name.",
+                 "technologies": ["HTML", "CSS", "Vanilla JavaScript"],
+                 "live_link": "https://rainytides.github.io/FSJS-TD-Unit2-Proj/",
+                 "github_link": "https://github.com/rainytides/FSJS-TD-Unit2-Proj",
+                 "image_urls": ["/static/images/square-image-1-for-unit-2.png","/static/images/image-2-for-unit-2.png","/static/images/image-3-for-unit-2.png"]
+             },
+             {
+                 "id": 2,
+                 "project_name": "Interactive Form",
+                 "description": "A student registration form with interactive elements and validation. The form includes conditional error messages and real-time validation.",
+                 "live_link": "https://rainytides.github.io/FSJS-TD-Unit3-Proj/",
+                 "github_link": "https://github.com/rainytides/FSJS-TD-Unit3-Proj",
+                 "image_urls": ["/static/images/square-image-1-for-unit-3.png","/static/images/image-2-for-unit-3.png","/static/images/image-3-for-unit-3.png"]
+             },
+             {
+                 "id": 3,
+                 "project_name": "Phrase Hunter Game",
+                 "description": "A gameshow app where players try to guess a phrase by selecting letters from an onscreen keyboard.Players have 5 attempts to guess the phrase.",
+                 "technologies": ["HTML", "CSS", "Vanilla JavaScript"],
+                 "live_link": "https://rainytides.github.io/FSJS-TD-Unit4-Proj/",
+                 "github_link": "https://github.com/rainytides/FSJS-TD-Unit4-Proj",
+                 "image_urls": ["/static/images/square-image-1-for-unit-4.png","/static/images/image-2-for-unit-4.png","/static/images/image-3-for-unit-4.png"]
+             },
+             {
+                 "id": 4,
+                 "project_name": "Startup Directory using a public API",
+                 "description": "A mock startup directory using a public API to display an employee information. The page displays 12 employees at a time and allows users to search for employees by name.",
+                 "technologies": ["HTML", "CSS", "Vanilla JavaScript"],
+                 "live_link": "https://rainytides.github.io/FSJS-TD-Unit5-Proj/",
+                 "github_link": "https://github.com/rainytides/FSJS-TD-Unit5-Proj",
+                 "image_urls": ["/static/images/square-image-1-for-unit-5.png","/static/images/image-2-for-unit-5.png","/static/images/image-3-for-unit-5.png"]
+             }
+        ]   
+    }
+
+             

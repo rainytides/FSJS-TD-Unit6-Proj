@@ -1,0 +1,11 @@
+extends layout.pug
+
+block content
+    section.error-section
+        h1 Server Error
+        h2 Error Status Code: #{error.status} - Server Error
+        p #{error.message}. Please go back and try again or contact support if the issue persists.
+        nav.nav
+            a(href='/') 
+                span &larr;
+                |  Home

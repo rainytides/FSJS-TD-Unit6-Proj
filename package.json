@@ -1,0 +1,16 @@
+{
+    "name": "static_node_and_express_site_v1",
+    "version": "1.0.0",
+    "description": "A portfolio site to show off my projects and skills, built with Node.js and Express.",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "author": "Voke Elstein",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "opn": "^6.0.0",
+        "pug": "^3.0.2"
+    }
+}
