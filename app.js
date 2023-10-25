@@ -22,13 +22,18 @@ app.use('/project', projectRoutes);
 app.use((req, res, next) => {
     const error = new Error('Page Not Found');
     error.status = 404;
+    console.log(`404 Error - Page not found: : ${req.originalUrl}`);
     next(error);
 });
 
 // Handle all other errors
 app.use((error, req, res, next) => {
+    const errorStatus = error.status || 500;
+    const errorMessage = error.message || 'Internal Server Error';
+    console.log(`Error ${errorStatus}: ${errorMessage} - at ${req.originalUrl}`);
+    
     res.locals.error = error;
-    res.status(error.status || 500);
+    res.status(errorStatus);
     res.render('error');
 });
 
