@@ -32,7 +32,7 @@
              {
                  "id": 3,
                  "project_name": "Phrase Hunter Game",
-                 "description": "A gameshow app where players try to guess a phrase by selecting letters from an onscreen keyboard.Players have 5 attempts to guess the phrase.",
+                 "description": "A gameshow app where players try to guess a phrase by selecting letters from an onscreen keyboard. Players have 5 attempts to guess the phrase.",
                  "technologies": ["HTML", "CSS", "Vanilla JavaScript"],
                  "live_link": "https://rainytides.github.io/FSJS-TD-Unit4-Proj/",
                  "github_link": "https://github.com/rainytides/FSJS-TD-Unit4-Proj",
